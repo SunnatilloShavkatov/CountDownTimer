@@ -1,8 +1,8 @@
-name: CountDownTimer
+name: count_down_timer
 description: A new Flutter project.
 version: 0.0.1
 author:
-homepage:
+homepage: https://github.com/SunnatilloQuantic/CountDownTimer
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -11,15 +11,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_bloc: ^6.0.6
+  equatable: ^1.2.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter.
 flutter:
 
   # To add assets to your package, add an assets section, like this:
